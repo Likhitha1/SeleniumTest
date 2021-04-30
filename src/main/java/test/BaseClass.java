@@ -42,7 +42,7 @@ public class BaseClass {
         htmlReporter.config().setTheme(Theme.DARK);
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
-        extent.setSystemInfo("Automation Tester", "Shubhendu Madhukar");
+        extent.setSystemInfo("Automation Tester", "Likhitha Jain");
         setupDriver(browserName);
         driver.manage().window().maximize();
         driver.get(Constants.URL);
