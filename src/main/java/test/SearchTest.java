@@ -7,7 +7,7 @@ import pageEvents.HomePageEvents;
 public class SearchTest extends BaseClass {
 
     @Test
-    public void login() {
+    public void search() {
         HomePageEvents homePageEvents = new HomePageEvents();
         homePageEvents.searchPageitem();
     }
